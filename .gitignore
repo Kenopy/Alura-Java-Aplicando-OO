@@ -26,7 +26,10 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
-.DS_Store
-*.iml
+# Arquivos do IntelliJ IDEA
 .idea/
+*.iml
+
+# Arquivos compilados do Java
+target/
+*.class
